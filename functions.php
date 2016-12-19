@@ -36,4 +36,10 @@ return $string;
 }
 
 add_shortcode('wpb_childpages', 'wpb_list_child_pages');
+
+function remove_oblique_footer_credits() {
+	remove_action( 'oblique_footer', 'oblique_footer_credits' );
+}
+add_action( 'get_footer', 'remove_oblique_footer_credits');
 ?>
+

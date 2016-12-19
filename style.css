@@ -11,3 +11,16 @@
  Tags:         portfolio
  Text Domain:  twenty-fifteen-child
 */
+
+.wp-post-image {
+	max-height: 250px;
+	max-width: 250px;
+}
+
+.post-thumbnail {
+	padding-top: 2.9474em;
+}
+
+.filter-container {
+	display: flex;
+}
