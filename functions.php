@@ -25,7 +25,8 @@ function wpb_list_child_pages() {
 
 		$string = "<div class='filter-container'>";
 		foreach($childpages as $page){
-			$string .= '<div>' . get_the_post_thumbnail( $page->ID, 'full') . '<p>' . get_the_title( $page->ID ) . '</p>' . '</div>';
+			$string .= '<figure><a href="' . get_page_link( $page->ID ) . '">  ' . get_the_post_thumbnail( $page->ID, 'full') . '<div class="filter-title">' . get_the_title( $page->ID ) . '</div><div class="filter-date">' . get_the_date( 'M Y',  $page->ID ) . '</div></a></figure>';
+
 		}
 		$string .= '</div>';
 	}
