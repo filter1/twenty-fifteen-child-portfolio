@@ -13,37 +13,43 @@
 */
 
 .wp-post-image {
-	max-height: 250px;
-	max-width: 250px;
+  max-height: 250px;
+  max-width: 250px;
 }
 
 .filter-container .wp-post-image {
-	max-height: 250px;
-	max-width: 250px;
+  max-height: 250px;
+  max-width: 250px;
 }
 
 .post-thumbnail {
-	padding-top: 2.9474em;
+  padding-top: 2.9474em;
 }
 
 .filter-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: -2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -2em;
 }
 
 .filter-container figure {
-	margin: 2em;
+  margin: 2em;
 }
 
-.filter-title{
-	font-family: "Noto Sans", sans-serif;
-	font-size: 1em;
+.filter-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
 }
 
-.filter-date{
-	font-family: "Noto Sans", sans-serif;
-	font-size: 0.7em;
-	opacity: 0.7;
+.filter-date {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.7em;
+  opacity: 0.7;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
 }
