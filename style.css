@@ -40,6 +40,8 @@
 .filter-title {
   font-family: "Noto Sans", sans-serif;
   font-size: 1em;
+  margin-top: 0.5rem;
+  padding: 2rem;
 }
 
 .filter-date {
@@ -52,4 +54,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif !important;
+}
+
+.entry-title {
+  padding-top: 1rem;
 }
